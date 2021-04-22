@@ -14,14 +14,4 @@ If you're going to deal with Chinese characters, run the following commands:
 
 `pip install zhon`
 
-**If the download network speed is slow**, you can try the following commands:
-
-` pip install -i https://pypi.tuna.tsinghua.edu.cn/simple jieba `
-
-`pip install -i https://pypi.tuna.tsinghua.edu.cn/simple zhon
-`
-
-**Where should I run the above commands?**
-
-Click the Terminal button in the lower left corner of PyCharm, and then run the commands above.
 
