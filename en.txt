@@ -1,0 +1,35 @@
+Since such an operation is likely to be inlined in practice,
+it would be slightly more realistic to do the comparison on inlined code.
+In particular, the “overflow” return value will typically only be used in a conditional branch,
+so reifying it into an actual integer register value (as opposed to a branching flag) is a waste on
+many architectures.
+
+Ouch, I forgot the negative numbers in my prvious comment, let me rewrite:
+
+Something like if “sign of a and b is the same but the sign or rp is different,
+then overflow. (you could do that with a multiplications if “a * b * (*rp) overflow,
+but I believe this is faster (I am going to try it my self and I will add some results).
+
+Love is a set of emotions and behaviors characterized by intimacy, passion, and commitment.
+It involves care, closeness, protectiveness, attraction, affection, and trust.
+Love can vary in intensity and can change over time.
+It is associated with a range of positive emotions, including happiness,
+excitement, life satisfaction, and euphoria, but it can also result in negative emotions
+such as jealousy and stress.1
+
+When it comes to love, some people would say it is one of the most important human emotions.
+Yet despite being one of the most studied behaviors,
+it is still the least understood. For example,
+researchers debate whether love is a biological or cultural phenomenon.2
+
+
+Love is most likely influenced by both biological drives and cultural influences.
+While hormones and biology are important,
+the way we express and experience love is also influenced by our
+personal conceptions of love.
+
+Based on this view of romantic love,
+Rubin developed two questionnaires to
+measure these variables, known as Rubin's Scales of Liking and Loving.
+While people tend to view people they
+like as pleasant, love is marked by being devoted, possessive, and confiding in one another.
